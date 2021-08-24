@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EmreDemir.Business</id>
+    <version>1.0.0</version>
+    <authors>EmreDemir.Business</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="EmreDemir.DataAccess" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="EmreDemir.Entities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="X.PagedList" version="8.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Business\bin\Release\net5.0\EmreDemir.Business.dll" target="lib\net5.0\EmreDemir.Business.dll" />
+  </files>
+</package>

@@ -1,0 +1,51 @@
+﻿@model PostViewModel
+
+@{
+    ViewData["Titlw"] = "Ekle";
+    Layout = "_Layout";
+}
+
+<br />
+<br />
+<br />
+<br />
+
+<form asp-action="Ekle" method="post">
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1"> Başlık </span>
+        </div>
+        <input asp-for="Post.PostHeader" type="text" class="form-control" placeholder="Başlık Ekle" aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group mb-3">
+        <input asp-for="Post.PostOwner" type="text" class="form-control" placeholder="Yazar" aria-label="Yazar" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2"> Yazar </span>
+        </div>
+    </div>
+
+
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon3">Makale</span>
+        </div>
+        <textarea asp-for="Post.PostText" class="form-control" aria-label="With textarea"></textarea>
+    </div>
+
+    <div class="input-group mb-3" style="margin-top:15px">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon4">Kategori</span>
+        </div>
+        <textarea asp-for="Post.PostCategory" class="form-control" aria-label="With textarea"></textarea>
+    </div>
+
+
+    <div>
+        <br />
+        <button type="submit" class="btn btn-outline-secondary">Gönder</button>
+    </div>
+
+
+</form>

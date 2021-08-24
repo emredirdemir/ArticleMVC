@@ -1,0 +1,31 @@
+﻿@model WhoAmIViewModel
+@{
+    ViewData["Title"] = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Düzenle</h1>
+
+<br />
+<br />
+<br />
+<br />
+<form enctype="multipart/form-data" method="post">
+
+    <div class="form-group">
+        <label for="exampleFormControlFile1">Photo input</label>
+        <input asp-for="@Model.WhoAmI.FileImg" type="file" class="form-control-file" id="exampleFormControlFile1">
+    </div>
+
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Ben Kimim?</label>
+        <textarea asp-for="@Model.WhoAmI.Text" class="form-control" id="exampleFormControlTextarea1"> @Model.WhoAmI.Text </textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleFormControlFile1">CV input</label>
+        <input asp-for="@Model.WhoAmI.File" type="file" class="form-control-file" id="exampleFormControlFile1">
+    </div>
+
+    <input type="submit" class="btn btn-dark" value=" Gönder " />
+</form>

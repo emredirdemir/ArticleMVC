@@ -1,0 +1,15 @@
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Entities\bin\Release\net5.0\EmreDemir.Entities.deps.json
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Entities\bin\Release\net5.0\EmreDemir.Entities.dll
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Entities\bin\Release\net5.0\ref\EmreDemir.Entities.dll
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Entities\bin\Release\net5.0\EmreDemir.Entities.pdb
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Entities\bin\Release\net5.0\EmreDemir.Core.dll
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Entities\bin\Release\net5.0\EmreDemir.Core.pdb
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Entities\obj\Release\net5.0\EmreDemir.Entities.csproj.AssemblyReference.cache
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Entities\obj\Release\net5.0\EmreDemir.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Entities\obj\Release\net5.0\EmreDemir.Entities.AssemblyInfoInputs.cache
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Entities\obj\Release\net5.0\EmreDemir.Entities.AssemblyInfo.cs
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Entities\obj\Release\net5.0\EmreDemir.Entities.csproj.CoreCompileInputs.cache
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Entities\obj\Release\net5.0\EmreDemir.Entities.csproj.CopyComplete
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Entities\obj\Release\net5.0\EmreDemir.Entities.dll
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Entities\obj\Release\net5.0\ref\EmreDemir.Entities.dll
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Entities\obj\Release\net5.0\EmreDemir.Entities.pdb

@@ -1,0 +1,18 @@
+﻿@model CategoryViewModel
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+
+
+
+@foreach (var item in Model.CategoryName)
+{
+
+
+
+    <a asp-route-CategoryName="@item" asp-action="GetByPost" asp-controller="Category" style="font-size: medium;">@item</a>
+
+
+}
+

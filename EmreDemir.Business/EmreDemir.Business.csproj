@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="X.PagedList" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmreDemir.DataAccess\EmreDemir.DataAccess.csproj" />
+    <ProjectReference Include="..\EmreDemir.Entities\EmreDemir.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

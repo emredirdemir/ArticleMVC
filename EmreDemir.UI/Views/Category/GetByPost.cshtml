@@ -1,0 +1,100 @@
+﻿@model PostViewModel
+
+@using X.PagedList.Mvc.Core
+@using X.PagedList
+@using X.PagedList.Web.Common
+
+
+@{
+    ViewData["Title"] = "Ana Sayfa";
+    Layout = "_IndexLayout";
+}
+
+@section Scripts {
+
+    <style>
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+        }
+    </style>
+
+
+}
+
+
+
+<div class="container">
+
+    @foreach (var post in Model.posts)
+    {
+
+
+        <form>
+            <br />
+
+            <div class="w3-card-4" style="background-color: white;">
+
+                <header class="w3-container w3-dark-grey">
+                    <h3 style="display:inline; color:white;">@post.PostHeader</h3>
+                    @{
+                        if (User.Identity.IsAuthenticated)
+                        {
+                            <button asp-action="Sil" asp-route-Id="@post.Id" type="submit" class="btn btn-danger btn-xs w3-right"> Sil </button>
+                            <input type="button" class="w3-right invisible" />
+                            <button asp-action="Düzenle" asp-route-Id="@post.Id" type="submit" class="btn btn-primary btn-xs w3-right"> Düzenle </button>
+
+                        }
+
+                    }
+
+
+                </header>
+
+
+                <div class="w3-container">
+                    <p> </p>
+                    <p class="small text-success" style="color:white;">- @post.PostOwner</p>
+                    <hr>
+                    <img src="/Images/cat.jpg" alt="Avatar" class="w3-left w3-circle" width="80">
+
+
+
+                    @if (post.PostText.Count() > 100)
+                    {
+                        string Text = post.PostText.Substring(0, 100);
+                        <p> @Html.Raw(Text)...</p>
+
+
+                    }
+                    else
+                    {
+                        <p> @Html.Raw(post.PostText) </p>
+                    }
+                </div>
+
+
+                <button asp-controller="Post" asp-action="DetailPost" asp-route-Id="@post.Id" class="w3-button w3-block w3-dark-grey">+ Oku</button>
+            </div>
+        </form>
+        <br />
+
+
+    }
+
+</div>
+
+<br />
+<br />
+
+
+
+
+
+<br />
+<br />
+<br />
+<br />
+

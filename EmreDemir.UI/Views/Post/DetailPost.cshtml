@@ -1,0 +1,56 @@
+﻿@model PostViewModel;
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Güzel Okumalar...";
+}
+@section Scripts{
+
+    <style>
+        img {
+            border-radius: 8px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+    </style>
+
+}
+<br />
+<br />
+<br />
+<br />
+<form asp-action="Index" style="background-color:white;">
+
+    <div class="w3-card-4">
+        <header class="w3-container w3-dark-grey">
+            <h3>@Model.Post.PostHeader</h3>
+        </header>
+
+        <div class="w3-container">
+            <p> </p>
+            <p class="small text-success">- @Model.Post.PostOwner</p>
+            <hr>
+
+            <p style="white-space:pre-line"> @Html.Raw(Model.Post.PostText)</p>
+
+
+
+            <br />
+            <br />
+            <br />
+
+        </div>
+
+
+        <button class="w3-button w3-block w3-dark-grey">Geri Dön</button>
+
+    </div>
+
+
+</form>
+
+<br />
+<br />
+<br />
+

@@ -1,0 +1,29 @@
+﻿@model WhoAmIViewModel
+@{
+    Layout = "_Layout";
+}
+<br />
+<br />
+<br />
+<br />
+
+<div style="margin-bottom:10px;">
+    @if (User.Identity.IsAuthenticated)
+    {
+        <a style="text-decoration: none;" class="w3-button w3-black" asp-controller="WhoAmI" asp-action="Update">Düzenle</a>
+
+    }
+
+</div>
+<img style="padding: 10px; display: block; margin-left: auto; margin-right: auto; width: 22%; border-radius: 40%;  " src="PersonelImage/@Model.WhoAmI.ImgName" />
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title" style="color:forestgreen;">Ben Kimim?</h5>
+        <hr />
+        <h6 class="card-subtitle mb-2 text-muted small">Öz Geçmişim Ektedir.</h6>
+        <p style="white-space: pre-line"> @Model.WhoAmI.Text </p>
+        <hr />
+        <a href="~/CV/@Model.WhoAmI.Pdf" class="card-link btn btn-outline-success" style="color:green">Özgeçmişim</a>
+    </div>
+</div>
+

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EmreDemir.Core</id>
+    <version>1.0.0</version>
+    <authors>EmreDemir.Core</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="5.0.8" exclude="Build,Analyzers" />
+        <dependency id="X.PagedList.Mvc.Core" version="8.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Core\bin\Release\net5.0\EmreDemir.Core.dll" target="lib\net5.0\EmreDemir.Core.dll" />
+  </files>
+</package>

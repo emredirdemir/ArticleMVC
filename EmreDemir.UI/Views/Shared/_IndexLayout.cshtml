@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+@{
+    Layout = "_Layout";
+}
+
+@section Scripts{
+    <style>
+        #CustomEd {
+            left: 80%;
+        }
+    </style>
+
+
+
+}
+<br
+<br />
+<br />
+
+<br />
+
+@if (User.Identity.IsAuthenticated)
+{
+    <a style="text-decoration: none;" id="CustomEd" class="w3-button w3-black" asp-controller="Post" asp-action="Ekle">Ekle</a>
+
+}
+
+<div>
+
+    <div>
+        @RenderBody()
+    </div>
+</div>
+
+@await RenderSectionAsync("Scripts", required: false)

@@ -1,0 +1,12 @@
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Core\bin\Release\net5.0\EmreDemir.Core.deps.json
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Core\bin\Release\net5.0\EmreDemir.Core.dll
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Core\bin\Release\net5.0\ref\EmreDemir.Core.dll
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Core\bin\Release\net5.0\EmreDemir.Core.pdb
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Core\obj\Release\net5.0\EmreDemir.Core.csproj.AssemblyReference.cache
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Core\obj\Release\net5.0\EmreDemir.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Core\obj\Release\net5.0\EmreDemir.Core.AssemblyInfoInputs.cache
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Core\obj\Release\net5.0\EmreDemir.Core.AssemblyInfo.cs
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Core\obj\Release\net5.0\EmreDemir.Core.csproj.CoreCompileInputs.cache
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Core\obj\Release\net5.0\EmreDemir.Core.dll
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Core\obj\Release\net5.0\ref\EmreDemir.Core.dll
+C:\Users\ed\Desktop\EmreDemir.Core\EmreDemir.Core\obj\Release\net5.0\EmreDemir.Core.pdb
